@@ -16,7 +16,7 @@ function objTosql(ob) {
             if (typeof value === "string" && value.indexOf(" ") >= 0) {
                 value = "'" + value + "'";
             }
-            arr.push(ley + "=" + value)
+            arr.push(key + "=" + value)
         };
     };
     return arr.toString();
