@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    padding: 5%;
+    background-color: #ffdc6a;
+}
+
+h1 {
+    text-align: center;
+}
+
+.image {
+  min-height: 200px;
+  background-image: url(assets/img/burger.png);
+}
+
+
+li {
+    padding: 5px;
+    margin: 5px;
+  }
+
+.label {
+  font-weight: bold;
+}
+
+.create-form {
+  padding: 5px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+#bur {
+  min-width: 300px;
+  min-height: 100px;
+}
+  
